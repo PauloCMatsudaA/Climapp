@@ -32,7 +32,7 @@ class _ClimaHomePageState extends State<ClimaHomePage> {
       _carregando = true;
     });
 
-    final apiKey = 'dfeb4719a35a4f8fced8f85d48c47aa4'; // Substitua pela sua chave real
+    final apiKey = 'dfeb4719a35a4f8fced8f85d48c47aa4';
     final url =
         'https://api.openweathermap.org/data/2.5/weather?q=$cidade&appid=$apiKey&lang=pt_br&units=metric';
 
